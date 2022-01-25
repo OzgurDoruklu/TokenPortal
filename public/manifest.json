@@ -1,19 +1,20 @@
 {
-  "name": "Adem ilter",
-  "short_name": "Ai",
+  "name": "Ozgur Doruklu",
+  "short_name": "OD",
   "icons": [
     {
-      "src": "/icons/android-chrome-192x192.png",
+      "src": "/icons/troll-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/icons/android-chrome-384x384.png",
+      "src": "/icons/troll-384.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "/icons/troll-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import Head from 'next/head'
 import StoreContext from '../store'
 
 import Layout from '../components/layout'
@@ -12,19 +11,11 @@ function HomePage() {
 
   return (
     <Layout>
-      <Head>
-        <title>Home Page</title>
-      </Head>
-
-      <h1>Home page</h1>
-
+      <h1>Token Portal</h1>
       <br />
-
       <Icon.Search style={{ fontSize: 24 }} />
-
       <br />
       <br />
-
       <div>
         Change Theme{' '}
         <Button
@@ -37,10 +28,8 @@ function HomePage() {
           {store.theme === THEME.LIGHT ? 'Dark' : 'Light'}
         </Button>
       </div>
-
       <br />
       <br />
-
       <div>
         API url (env): <b>{process.env.API_URL}</b>
       </div>

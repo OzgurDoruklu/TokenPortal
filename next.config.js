@@ -1,7 +1,7 @@
 const withPlugins = require('next-compose-plugins')
 const withPWA = require('next-pwa')
 
-const isDev = process.env.NODE_ENV !== 'production'
+const isDev = process.env.NODE_ENV !== 'production';
 
 const nextConfig = {
   env: {

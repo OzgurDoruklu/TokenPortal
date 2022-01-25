@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'Next Template',
-  description: 'Next PWA Template',
-  siteUrl: 'https://github.com/ademilter/next-web-template',
+  title: 'Token Portal',
+  description: 'Token PWA',
+  siteUrl: 'https://github.com/OzgurDoruklu/tokenPortal',
   googleAnalytic: 'X-XXXXXXXXXX',
   author: {
-    email: 'ademilter@gmail.com',
-    name: 'Adem ilter'
+    email: 'ozgurdoruklu@gmail.com',
+    name: 'Ozgur Doruklu'
   },
-  lang: 'en'
+  lang: 'tr'
 }
